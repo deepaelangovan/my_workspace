@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: hsl(210, 36%, 96%);
+  color:hsl(209, 61%, 16%)
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.section{
+  padding: 5rem 0;
+}
+.section-center{
+  margin: 0 auto;
+  max-width: 35rem;
+  margin-top:2rem;
+}
+.section-center{
+  background: #fff;
+  border-radius: .25rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all .3s linear;
+  padding: 2rem;
+}
+.form{
+  display:flex;
+  justify-content: center;
+}
+
+input[type="checkbox"]
+{
+    vertical-align:middle;
+    padding: 5px;
+}
+
+.cBLabel{
+  padding: 5px;
+  font-weight: bolder;
+}
+.edit-btn {
+  color: darkgreen;
+  /*cursor: pointer;
+  margin: 0 0.10rem;*/
+}
+
+.delete-btn {
+  color: red;
+ /* cursor: pointer;*/
+}
